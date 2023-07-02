@@ -29,3 +29,12 @@ for (int i = 0; i < n; i++)
 
 System.Console.Write("Задан Массив: ");
 PrintString(array);
+
+int size = 0;
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i].Length <= 3)
+    {
+        size++;
+    }
+}
