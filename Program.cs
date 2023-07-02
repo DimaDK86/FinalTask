@@ -38,3 +38,18 @@ for (int i = 0; i < array.Length; i++)
         size++;
     }
 }
+
+string[] array2 = new string[size];
+int count = 0;
+
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i].Length <= 3)
+    {
+        array2[count] = array[i];
+        count++;
+    }
+}
+
+System.Console.Write("Новый Массив, состоящий из элементов длина которых меньше, либо равна 3 символам: ");
+PrintString(array2);
