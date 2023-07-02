@@ -16,3 +16,16 @@ void PrintString(string[] array)
     }
     Console.WriteLine();
 }
+
+System.Console.Write("Введите размер массива - ");
+int n = int.Parse(Console.ReadLine());
+string[] array = new string[n];
+
+for (int i = 0; i < n; i++)
+{
+    System.Console.Write($"Введите элемент {i}: ");
+    array[i] = Console.ReadLine();
+}
+
+System.Console.Write("Задан Массив: ");
+PrintString(array);
