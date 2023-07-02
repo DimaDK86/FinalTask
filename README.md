@@ -70,3 +70,7 @@ for (int i = 0; i < array.Length; i++)
 System.Console.Write("Новый Массив, состоящий из элементов длина которых меньше, либо равна 3 символам: ");
 PrintString(array2);
 ```
+
+**Блок-Схема, основного блока программы**
+
+![](https://raw.githubusercontent.com/DimaDK86/FinalTask/main/shema.jpg)
